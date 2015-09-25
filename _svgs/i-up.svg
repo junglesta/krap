@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="168.619px" height="84.334px" viewBox="367.213 281.166 168.619 84.334" enable-background="new 367.213 281.166 168.619 84.334" xml:space="preserve">
+<style>
+	.style0{
+		stroke:	#000000;
+		stroke-width:	5;
+		stroke-miterlimit:	10;
+		fill:	#FFFFFF;
+	}
+</style><circle cx="410.2" cy="323.5" r="35.3" class="style0"/>
+<circle cx="491.2" cy="323.5" r="35.3" class="style0"/>
+<path d="M410.22 289.83c-9.205 0-16.668 7.463-16.668 16.668s7.463 16.7 16.7 16.67c9.206 0 16.669-7.465 16.669-16.67 S419.426 289.8 410.2 289.83z M491.174 289.83c-9.205 0-16.668 7.462-16.668 16.668c0 9.2 7.5 16.7 16.7 16.7 c9.206 0 16.669-7.465 16.669-16.67C507.843 297.3 500.4 289.8 491.2 289.83z"/>
+</svg>

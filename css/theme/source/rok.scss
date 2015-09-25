@@ -1,0 +1,230 @@
+/**
+ * punkrok theme for reveal.js.
+ *
+ * Copyright (C) 2014 rokma, http://rokma.com
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+// @import url(https://fonts.googleapis.com/css?family=Montserrat:400);
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz|Roboto);
+
+//font-family: 'Yanone Kaffeesatz', sans-serif;
+//font-family: 'Roboto', sans-serif;
+
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: #161616;
+
+$mainFont: 'Roboto', sans-serif;
+$linkColor: #e7ad52;
+$linkColorHover: lighten( $linkColor, 20% );
+$selectionBackgroundColor: #e7ad52;
+$mainFontSize: 26px;
+$headingFont: 'Yanone Kaffeesatz', sans-serif;
+$headingLineHeight: 1.1;
+$headingTextShadow: none;
+$headingLetterSpacing: -0.03rem;
+$headingTextTransform: none;
+
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
+
+
+// mo krap
+
+h1, h2 {
+  font-family: 'Yanone Kaffeesatz', sans-serif!important;
+  text-transform: capitalize!important; 
+}
+h3, h4, h5, h6 { font-family: 'Roboto', sans-serif!important; }
+
+// I have a recommendation for your CSS going forward (Paul Irish)
+// apply a natural box layout model to all elements, 
+// but allowing components to change  
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit; 
+}
+small {
+  font-size: 1.6rem!important;
+}
+h1, h2, h3, h4, h5, h6 {font-weight: 400!important;}
+
+.pioneers section > p {
+	color: red;
+	small {
+		color: orange;
+	}
+}
+.reveal h3 {
+	color: red;
+}
+
+.caption {
+	color: #ff0!important;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 10em;
+	padding: .4em .6em!important;
+}
+
+//______svgs_______
+// pill logo stuff
+svg#logo {
+ width: 500px;
+ height: 350px;
+}
+
+.krap {
+	fill:	#FF0000;
+}
+
+.eyes {
+	stroke:	#000000;
+	stroke-width:	5;
+	stroke-miterlimit:	10;
+	fill:	#e7ad52; // same as <a>
+}
+
+#eyes-down {
+	display:none;
+}
+
+
+#eyes-up {
+	will-change: scale;
+  -webkit-animation: move 3s infinite alternate backwards;
+  -moz-animation: move 3s infinite alternate backwards;
+  animation: move 3s infinite alternate backwards;
+
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+}
+@-webkit-keyframes move {
+	0%, 40% { -webkit-transform: translateY(0);}
+	60%, 100% { -webkit-transform: translateY(34px);}
+}
+@-moz-keyframes move {
+	0%, 40% { -moz-transform: translateY(0);}
+	60%, 100% { -moz-transform: translateY(34px);}
+}
+@-keyframes move {
+	0%, 40% { transform: translateY(0);}
+	60%, 100% { transform: translateY(34px);}
+}
+
+
+
+
+// BLOCKQUOTES ON LSD 
+// Speech Bubble Or Dive!
+// Scss Or Die
+
+// CONTROLS
+$BQunit: 1.1rem;
+$BQradius: ($BQunit/8);
+$BQbackground: rgba(35,35,35,1);
+
+// THE BLOK
+blockquote {
+  display: inline-block;
+  position: relative;
+  font-style: normal!important;
+  font-weight: normal!important;
+  line-height:1.5!important;
+  color: inherit!important;
+  background-color: $BQbackground!important;
+  -webkit-border-radius: $BQradius;
+  -moz-border-radius: $BQradius;
+  border-radius: $BQradius;
+
+  padding-top: ($BQunit/2)!important;
+  padding-right: ($BQunit/2)!important;
+  padding-bottom: ($BQunit/2)!important;
+  padding-left: ($BQunit/2)!important;
+
+  margin-top: $BQunit!important;
+  margin-right: auto;
+  margin-bottom: 0!important;
+  margin-left: auto;
+
+}
+// ALIGNMENT even odd 
+.fragment:nth-child(odd) blockquote,
+p:nth-child(odd) blockquote {
+  text-align: left;
+  padding-left:2rem!important;
+    //so triangle never bigger than ballon
+  min-height:1.1rem!important;
+}
+.fragment:nth-child(even) blockquote,
+p:nth-child(even) blockquote {
+  text-align: right;
+  padding-right:2rem!important;
+    //so triangle never bigger than ballon
+  min-height:1.1rem!important;
+}
+blockquote.up{
+  width: 50!important;
+  text-align: center!important
+}
+
+// THE TRIANGLE 
+blockquote:before {
+  content:"";
+  position:absolute;
+  border-style:solid;
+  border-color: $BQbackground transparent;
+  display:block;
+  width: 0!important;
+  height: 0!important;
+
+
+}
+
+// THE TRIANGLE even odd  
+.fragment:nth-child(odd) blockquote:before { top:calc(50% - 1.1rem);
+left: -$BQunit ;
+right: auto;
+border-top: $BQunit solid transparent;
+border-bottom: $BQunit solid transparent; 
+border-right: $BQunit solid $BQbackground;
+}
+
+.fragment:nth-child(even) blockquote:before {top:calc(50% - 1.1rem);
+right: -$BQunit;
+left: auto;
+border-top: $BQunit solid transparent;
+border-bottom: $BQunit solid transparent; 
+border-left: $BQunit solid $BQbackground; 
+}
+// THE TRIANGLE up 
+blockquote.up:before {
+  content:"";
+  position:absolute;
+  border-style:solid;
+  width: 0!important; 
+  height: 0!important;
+  top:  -$BQunit*1.9!important;
+  left: 30%!important; 
+  right: auto;
+  bottom: auto !important;
+  border-right: $BQunit solid transparent!important;
+  border-left: $BQunit solid transparent!important;
+  border-bottom: $BQunit solid $BQbackground!important;
+}
+
+
+

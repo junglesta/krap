@@ -1,0 +1,12 @@
+.DS_Store
+.svn
+log/*.log
+tmp/**
+node_modules/
+.sass-cache
+*.psd
+.workinprogress
+
+_names/
+_reveal
+_sw
