@@ -5,6 +5,7 @@ tmp/**
 node_modules/
 .sass-cache
 *.psd
+*.zip
 .workinprogress
 
 _names/
