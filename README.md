@@ -2,19 +2,15 @@ _rokma presents_
 # KRAP
 ### Kompakt Skateboarding History
 
->###### An off-center, time-lined view, of a recent 'beyond-sport phenomena' that went global.
->
->&nbsp;
+>#### An off-center, time-lined view, of a recent 'beyond-sport phenomena' that went global.
 
->&nbsp;
+&nbsp;
 
->&nbsp;
+>It had to be learnt and cannot be taught. 
 
->&nbsp;
+_jungle★star★powered_
 
->&nbsp;
-
->&nbsp;
+##&nbsp;
 
 _based on:_
 ### reveal.js [![Build Status](https://travis-ci.org/hakimel/reveal.js.png?branch=master)](https://travis-ci.org/hakimel/reveal.js)
