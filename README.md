@@ -2,13 +2,19 @@ _rokma presents_
 # KRAP
 ### Kompakt Skateboarding History
 
->#### An off-center, time-lined view, of a recent 'beyond-sport phenomena' that went global.
+>#### An off-center, time-lined view, of a recent 'beyond-sport' phenomena that went global.
 
 &nbsp;
 
 >It had to be learnt and cannot be taught. 
 
-_jungle★star★powered_
+## Warning:
+
+Despite this repo being public, it doesn't mean that all these assets are open-source and/or copyright free, or even that you may use any of them.
+
+Please, ask for permission first by contacting us through _info@junglestar.org_
+
+Thanks, Junglestar team
 
 ##&nbsp;
 
