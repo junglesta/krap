@@ -1,6 +1,6 @@
 _rokma presents_
 # KRAP
-### Kompakt Skateboarding History
+### Compact Skateboarding History
 
 >#### An off-center, time-lined view, of a recent 'beyond-sport' phenomena that went global.
 
@@ -16,7 +16,12 @@ Please, ask for permission first by contacting us through _info@junglestar.org_
 
 Thanks, Junglestar team
 
-##&nbsp;
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/toybreaker/krap/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
+
+- - -
+
 
 _based on:_
 ### reveal.js [![Build Status](https://travis-ci.org/hakimel/reveal.js.png?branch=master)](https://travis-ci.org/hakimel/reveal.js)
