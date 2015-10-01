@@ -17,8 +17,6 @@ Please, ask for permission first by contacting us through _info@junglestar.org_
 Thanks, Junglestar team
 
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/toybreaker/krap/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
 
 - - -
 
