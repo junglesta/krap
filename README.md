@@ -4,7 +4,7 @@ _rokma presents_
 
 >#### An off-center, time-lined view, of a recent 'beyond-sport' phenomena that went global.
 
-&nbsp;
+![intro screen](screen.png)
 
 >It had to be learnt and cannot be taught.
 
