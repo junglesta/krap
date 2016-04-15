@@ -6,6 +6,12 @@ _rokma presents_
 
 ![intro screen](screen.png)
 
+![intro screen](shot2.png)
+
+![intro screen](shot1.png)
+
+![intro screen](shot3.png)
+
 >It had to be learnt and cannot be taught.
 
 ## Warning:
