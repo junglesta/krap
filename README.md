@@ -1,4 +1,4 @@
-_rokma presents_
+_photographer **rokma** presents_
 # KRAP
 ### [Compact Skateboarding History](http://krap.junglestar.org)
 
