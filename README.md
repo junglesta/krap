@@ -1,5 +1,6 @@
-_photographer **rokma** presents_
-# KRAP
+_photographer **rokma** presents:_
+# KRAP serie
+
 ### [Compact Skateboarding History](http://krap.junglestar.org)
 
 >#### An off-center, time-lined view, of a recent 'beyond-sport' phenomena that went global.
