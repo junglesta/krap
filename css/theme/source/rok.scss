@@ -67,8 +67,11 @@ h1, h2, h3, h4, h5, h6 {font-weight: 400!important;}
 		color: orange;
 	}
 }
-.reveal h3 {
-	color: red;
+.reveal {
+  font-size: 20px;
+  h3 {
+  	color: red;
+  }
 }
 
 .caption {
@@ -138,12 +141,13 @@ $BQradius: ($BQunit/8);
 $BQbackground: rgba(35,35,35,1);
 
 // THE BLOK
-blockquote {
+.reveal blockquote {
+  width: 90%;
   display: inline-block;
   position: relative;
   font-style: normal!important;
   font-weight: normal!important;
-  line-height:1.5!important;
+  line-height:1.25!important;
   color: inherit!important;
   background-color: $BQbackground!important;
   -webkit-border-radius: $BQradius;
@@ -151,9 +155,9 @@ blockquote {
   border-radius: $BQradius;
 
   padding-top: ($BQunit/2)!important;
-  padding-right: ($BQunit/2)!important;
+  padding-right: ($BQunit/4)!important;
   padding-bottom: ($BQunit/2)!important;
-  padding-left: ($BQunit/2)!important;
+  padding-left: ($BQunit/4)!important;
 
   margin-top: $BQunit!important;
   margin-right: auto;
@@ -165,19 +169,19 @@ blockquote {
 .fragment:nth-child(odd) blockquote,
 p:nth-child(odd) blockquote {
   text-align: left;
-  padding-left:2rem!important;
+  padding-left:1rem!important;
     //so triangle never bigger than ballon
   min-height:1.1rem!important;
 }
 .fragment:nth-child(even) blockquote,
 p:nth-child(even) blockquote {
   text-align: right;
-  padding-right:2rem!important;
+  padding-right:1rem!important;
     //so triangle never bigger than ballon
   min-height:1.1rem!important;
 }
 blockquote.up{
-  width: 50!important;
+  //width: 50!important;
   text-align: center!important
 }
 
