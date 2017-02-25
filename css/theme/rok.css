@@ -16,10 +16,10 @@ body {
   font-size: 26px;
   font-weight: normal;
   letter-spacing: -0.02em;
-  color: #eeeeee; }
+  color: #eee; }
 
 ::selection {
-  color: white;
+  color: #fff;
   background: #e7ad52;
   text-shadow: none; }
 
@@ -33,7 +33,7 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #eeeeee;
+  color: #eee;
   font-family: "Yanone Kaffeesatz", sans-serif;
   line-height: 1.1;
   letter-spacing: -0.03rem;
@@ -70,7 +70,7 @@ body {
 .reveal section img {
   margin: 15px 0px;
   background: rgba(255, 255, 255, 0.12);
-  border: 4px solid #eeeeee;
+  border: 4px solid #eee;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
   -webkit-transition: all .2s linear;
   -moz-transition: all .2s linear;
@@ -162,7 +162,7 @@ h1, h2, h3, h4, h5, h6 {
   color: red; }
 
 .caption {
-  color: yellow !important;
+  color: #ff0 !important;
   background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   top: 10em;
@@ -196,19 +196,16 @@ svg#logo {
 @-webkit-keyframes move {
   0%, 40% {
     -webkit-transform: translateY(0); }
-
   60%, 100% {
     -webkit-transform: translateY(34px); } }
 @-moz-keyframes move {
   0%, 40% {
     -moz-transform: translateY(0); }
-
   60%, 100% {
     -moz-transform: translateY(34px); } }
-@-keyframes move {
+@keyframes move {
   0%, 40% {
     transform: translateY(0); }
-
   60%, 100% {
     transform: translateY(34px); } }
 blockquote {
@@ -285,3 +282,5 @@ blockquote.up:before {
   border-right: 1.1rem solid transparent !important;
   border-left: 1.1rem solid transparent !important;
   border-bottom: 1.1rem solid #232323 !important; }
+
+/*# sourceMappingURL=rok.css.map */
